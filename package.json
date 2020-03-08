@@ -1,0 +1,24 @@
+{
+  "name": "csv2ws",
+  "version": "0.0.1",
+  "description": "Simple CSV to web service example, supporting big files.",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "author": "R2B Apps",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "adm-zip": "^0.4.14",
+    "compression": "^1.7.4",
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.1",
+    "fast-json-stable-stringify": "^2.1.0",
+    "fs-extra": "^8.1.0",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

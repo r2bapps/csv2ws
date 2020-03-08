@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <form action="/admin/upload" method="post" enctype="multipart/form-data">
+    <p>Strictly CSV definition RF4180 is allowed.</p>
+    <p>Select .csv file or zipped into .zip file to upload:</p>
+    <input type="file" name="data" id="data" accept=".csv, .zip" onchange="form.submit()" />
+  </form>
+</body>
+</html>
