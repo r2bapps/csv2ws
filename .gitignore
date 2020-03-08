@@ -1,4 +1,4 @@
 node_modules
-attachments/processed
-attachments/unzipped
-attachments/uploaded
+attachments/processed/*
+attachments/unzipped/*
+attachments/uploaded/*
